@@ -12,7 +12,7 @@ iOS uses post-script name while android using file name.
 ### Usage
 1. run the script to generate a mapping json `custom-fonts.json` at root folder
 `node ./node_modules/rn-font-mapping/scripts/map-font.js`
-[![running-script](./media/running-script.png "running-script")]
+![running-script](./media/running-script.png "running-script")
 
 2. Use our Text component or map it with your own way.
 ```
@@ -38,7 +38,7 @@ see `./example`
 
 result: 
 iOS:
-[![iOS](./media/iost.png "iOS")]
+[![iOS](./media/ios.png "iOS")]
 
 Android:
 [![Android](./media/android.png "Android")]
