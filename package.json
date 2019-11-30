@@ -1,0 +1,38 @@
+{
+  "name": "rn-font-mapping",
+  "version": "1.0.0",
+  "description": "Maping fontFamily with font weight and font style",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mythisdev/rn-font-mapping.git"
+  },
+  "keywords": [
+    "react-native",
+    "fontFamily",
+    "fontWeight",
+    "fontScale"
+  ],
+  "author": "fattomhk",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mythisdev/rn-font-mapping/issues"
+  },
+  "homepage": "https://github.com/mythisdev/rn-font-mapping#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-react-native": "^4.0.0",
+    "opentype.js": "^1.1.0"
+  },
+  "peerDependencies": {
+    "react": "*",
+    "react-native": "*"
+  },
+  "dependencies": {
+    "lodash.get": "^4.4.2",
+    "prop-types": "^15.7.2"
+  }
+}
