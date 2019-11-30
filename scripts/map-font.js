@@ -80,7 +80,11 @@ for (var i = 0; i < filenames.length; i++) {
     //Add CustomFonts
     const isItalic = fontWeightStyle.toLowerCase().includes("italic");
     const fontWeightDictKey = isItalic ? "italic" : "normal";
-    const fontWeight = fontWeightStyle.replace(/italic/ig, "");
+    let fontWeight = fontWeightStyle.replace(/italic/ig, "");
+    if(fontWeight.length == 0) {
+        fontWeight = 'Normal';
+    }
+
 
     const oldObj = customFonts[fontFamily] || {...basicFontFamilyObject};
 

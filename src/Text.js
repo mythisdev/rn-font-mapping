@@ -51,13 +51,16 @@ const getCustomFontFamilyStyles = (fontFamilyName, customFontsMapping, style = {
 
 	return {
 		fontFamily: fontFamily,
-		fontWeight: fontWeight,
-		fontStyle: fontStyle
+		fontWeight: undefined,
+		fontStyle: undefined
 	};
 };
 
-const Text =  ({style ,...others}) => {
-    let newStyle = StyleSheet.flatten(style);
+const Text =  ({style , fontMapping, ...others}) => {
+    let flattenStyle = StyleSheet.flatten(style);
+    const fontFamilyName = flattenStyle.fontFamily || 'System';
+    const fontStyle= getCustomFontFamilyStyles(fontFamilyName, fontMapping, flattenStyle);
+    const newStyle = {...flattenStyle, ...fontStyle};
     return <RNText {...others} style={newStyle}/>
 }
 
