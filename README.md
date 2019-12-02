@@ -2,6 +2,9 @@
 Mapping fontFamily with font weight and font style for custom fonts. 
 iOS uses post-script name while android using file name.
 
+### Buy me a coffee if you like this package
+<a href="https://www.buymeacoffee.com/4PC05sv" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/guidelines/download-assets-sm-2.svg" alt="Buy Me A Coffee" style="height: 41px !important;width: 174px !important;" ></a>
+
 ### Installation
 1. Add this package 
 `yarn add rn-font-mapping`
