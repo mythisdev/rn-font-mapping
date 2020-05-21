@@ -1115,9 +1115,9 @@ acorn-walk@^6.0.1:
   integrity sha512-7evsyfH1cLOCdAzZAd43Cic04yKydNx0cF+7tiA19p1XnLLPU4dpCQOqpjqwokFe//vS0QqfqqjCS2JkiIs0cA==
 
 acorn@^5.5.3:
-  version "5.7.3"
-  resolved "https://registry.yarnpkg.com/acorn/-/acorn-5.7.3.tgz#67aa231bf8812974b85235a96771eb6bd07ea279"
-  integrity sha512-T/zvzYRfbVojPWahDsE5evJdHb3oJoQfFbsrKM7w5Zcs++Tr257tia3BmMP8XYVjp1S9RZXQMh7gao96BlqZOw==
+  version "5.7.4"
+  resolved "https://registry.yarnpkg.com/acorn/-/acorn-5.7.4.tgz#3e8d8a9947d0599a1796d10225d7432f4a4acf5e"
+  integrity sha512-1D++VG7BhrtvQpNbBzovKNc1FLGGEE/oGe7b9xJm/RFHMBeUaUGpluV9RLjZa47YFdPcDAenEYuq9pQPcMdLJg==
 
 acorn@^6.0.1:
   version "6.4.0"
@@ -5522,13 +5522,6 @@ rimraf@~2.2.6:
 rn-font-mapping@../rn-font-mapping-1.0.0.tgz:
   version "1.0.0"
   resolved "../rn-font-mapping-1.0.0.tgz#6604aa34c59b2f0602b343162416dfddd959e522"
-  dependencies:
-    lodash.get "^4.4.2"
-    prop-types "^15.7.2"
-
-"rn-font-mapping@file:../rn-font-mapping-1.0.0.tgz":
-  version "1.0.0"
-  resolved "file:../rn-font-mapping-1.0.0.tgz#044d190194ef7f7dfc6f05832abb26282b38610f"
   dependencies:
     lodash.get "^4.4.2"
     prop-types "^15.7.2"
